@@ -22,7 +22,7 @@ function view(arr) {
             <h1>Страна: ${el.name.common}</h1> 
             <h1>Регион: ${el.region}</h1>
             <h1>Площадь: ${el.area.toLocaleString()} км<sup>2</sup></h1>
-            <h1>Население: ${el.population.toLocaleString()} км<sup>2</sup></h1>
+            <h1>Население: ${el.population.toLocaleString()} чел</h1>
             <a href="${el.maps.googleMaps}" target="_blank">Посмотреть на карте</a>
         </div>
         `;
