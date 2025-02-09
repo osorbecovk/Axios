@@ -24,7 +24,7 @@ function view(arr) {
             <h1>Площадь: ${el.area.toLocaleString()} км<sup>2</sup></h1>
             <h1>Население: ${el.population.toLocaleString()} чел</h1>
             <a href="${el.maps.googleMaps}" target="_blank">Посмотреть на карте</a>
-        </div>r
+        </div>
         `;
     });
     country.innerHTML = html;
